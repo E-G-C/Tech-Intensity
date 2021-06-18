@@ -169,25 +169,35 @@ resources through Azure Private DNS Zones. For more details, check this out:
 
 2. Go to DNS MMC Snap-in. You can do that by going to **Run** tool, and type:
    **dnsmgmt.msc**, then click on **OK**.
-   ![](media/d10970cf184bcab4a3699a5babc3a1c4.png)
+
+   ![run](media/lab-3/run.png)
 
 3. Expand the DNS root, right click on the DNS Instance, and go to
    **Properties**.
-    ![](media/67e3d18444caa41ee951b7cb84091bf2.png)
+
+    ![properties](media/lab-3/properties.png)
 
 4. Go to **Forwarders** tab and click on **Edit…**.  
-   ![](media/16a090e1b4b8907edb6b18bdd901e823.png)
+  
+    ![forwarders](media/lab-3/forwarders.png)
 
-5. Add this IP address **168.63.129.16**, then click **OK**.  
-   ![](media/b19e3ee9884c91aa7b19a0d45f288498.png)
+5. Add this IP address **168.63.129.16**, then click **OK**.
+
+    ![edit forwarders](media/lab-3/edit-forwarders.png)
 
 6. Back to the **Properties** dialog, you can click **Apply**, then **OK** to
    exit. This should be good enough to configure the Jumpbox as a DNS
    Forwarder.
-   ![](media/857d2c404bf808f89a5a67e7e2ab78f5.png)
+   ![apply](media/lab-3/apply.png)
 
-**You will test the DNS Forwarding functionality in the upcoming labs, once you
-create a Storage Account that’s associated with Azure Private Endpoint and
-deploy a VM in AVS Private Cloud. Once we have that setup, you can try to
-resolve the IP address of the Storage account, and you should get a private IP
-address not a public one.**
+    **\*You will test the DNS Forwarding functionality in the upcoming labs, once you
+    create a Storage Account that’s associated with Azure Private Endpoint and
+    deploy a VM in AVS Private Cloud. Once we have that setup, you can try to
+    resolve the IP address of the Storage account, and you should get a private IP
+    address not a public one.**
+
+## Next Steps
+
+[Back to Table of Content](toc.md#table-of-contents)
+
+[Lab 4](lab-4.md)

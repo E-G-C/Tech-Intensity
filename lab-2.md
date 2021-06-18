@@ -129,4 +129,4 @@ These are the detailed instructions of what you’ve seen in the section before
 
 [Back to Table of Content](toc.md#table-of-contents)
 
-[Lab 2](lab-3.md)
+[Lab 3](lab-3.md)
