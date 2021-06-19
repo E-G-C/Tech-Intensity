@@ -17,8 +17,7 @@ segment level to consume it.
    need to choose **DHCP Server** and then provide a name for the server IP
    addresses, for example 10.20.200.1/24. Next, click on **OK**.
 
-   ![Graphical user interface, text, application, email Description
-   automatically generated](media/lab-3/add-dhcp.png)
+   ![](media/lab-3/add-dhcp.png)
 
 3. It takes few seconds to complete, after that you’ll see the configuration as
    in the screenshot below.

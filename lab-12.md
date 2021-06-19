@@ -17,26 +17,24 @@ You will be downloading, deploying, and configuring VMware HCX on-premises,
 including all its components (Interconnect, Network Extension, and WAN
 Optimization). Then we will connect our on-premises environment via site pairing
 and stretch our Apps network to the Azure VMware Solution Private Cloud for
-zero-downtime migration.
+ero-downtime migration.
 
-**Lab Modules:**
+## Lab Modules
 
 1. VMware HCX Deployment and Installation
 
 2. VMware HCX Site Pairing and Components Configuration
 
 3. VMware HCX Network Extension and Workload Migration
-   
+
    You’ll need to register (create an account) at VMware Hands-On Lab platform
    to access the lab.
 
-**Lab Link:**
+## Lab Link
 
-| [Azure VMware Solution Workload Migration with VMware HCX](https://labs.hol.vmware.com/HOL/catalogs/lab/9433) |
-| ------------------------------------------------------------------------------------------------------------- |
+ [Azure VMware Solution Workload Migration with VMware HCX](https://labs.hol.vmware.com/HOL/catalogs/lab/9433) 
 
-![A picture containing diagram Description automatically
-generated](media/3e6714f9fd0cb71bf8f90b4b567e78d9.png)
+![hcx](media/lab-12/3e6714f9fd0cb71bf8f90b4b567e78d9.png)
 
 ## Next Steps
 

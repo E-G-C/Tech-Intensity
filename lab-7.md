@@ -18,27 +18,24 @@ resolution.
 
 1. Go to Azure Portal home page, click on **Create a resource** button.
 
-    ![Graphical user interface, application, Word Description automatically
-   generated](media/lab-7/59f1d0b2fbc30fc8f0ff819bd419ece8.png)
+    ![create a resource](media/lab-7/create-a-resource.png)
 
 2. Select (or search for) **Storage account**.  
 
-    ![Graphical user interface Description automatically generated with low
-   confidence](media/lab-7/b9fb2b3de67be0978f2c6abd46a4336e.png)
+    ![select storage account](media/lab-7/select-storage-account.png)
 
 3. Fill out the main fields at the **Basics** section to start creating a new
    Storage account, such as **Subscription**, **Resource Group**, **Name**,
    etc. … Keep the same values in the other fields as you see below.  
 
-   ![Graphical user interface Description automatically
-   generated](media/lab-7/59ef3f051ced203b037b1d94405bad1b.png)
+   ![storage account basics](media/lab-7/storage-account-basics.png)
 
 4. Move to **Advanced** section, click **Next**.
 
 5. Move to **Networking** section, and select **Private endpoint**. Then click
    on **+ Add private endpoint**.
 
-   ![](media/lab-7/095b1e2118be33383fe769901ddde853.png)
+   ![storage account networking](media/lab-7/storage-acc-networking.png)
 
 6. Fill out the fields in **Create private endpoint** pane.
 
@@ -56,10 +53,12 @@ resolution.
       **Integrate with private DNS zone**. Since it didn’t exist in this
       environment, it will create a new instance.
 
-      ![](media/lab-7/3af07fc933b18c5f3206722cbe72dad8.png)
+      ![create private endpoint](media/lab-7/create-private-endpoint.png)
 
 7. Click Ok at the Create private endpoint pane, and you should see something
-   similar to the following: ![](media/lab-7/05ef77929da57c9e0cc6da5a6bda69f9.png)
+   similar to the following:
+
+    ![private endpoints](media/lab-7/private-endpoints.png)
 
 8. Click on **Next** to move to **Tags** pane.
 
@@ -67,11 +66,11 @@ resolution.
    successful click on Create to create the Azure Storage Account with the
    associated Azure Private Endpoint and Azure Private DNS Zone.
 
-   ![](media/lab-7/45c111ebfc4151400a492139155ddfa8.png)
+   ![review and create](media/lab-7/review-and-create.png)
 
-10. It will take few minutes, and the deployment will be done. ![Graphical user
-    interface Description automatically
-    generated](media/lab-7/2cece19dcc1ff359863b827645b433ce.png)
+10. It will take few minutes, and the deployment will be done.
+
+    ![deployment complete](media/lab-7/deployment-complete.png)
 
 11. Go to the created Storage Account by clicking on its name, for example in
     the above screenshot it was **avs44demo**.
@@ -79,47 +78,59 @@ resolution.
 12. Go to **Networking** section on the **Storage Account** blade. There you
     will **temporarily** add a firewall exception for your IP so you can upload
     a file to the Storage account, and in a later step you will remove that
-    firewall exception. ![](media/lab-7/9184d3b6295d86a496d9a1fba116affb.png)
+    firewall exception.
+
+    ![add firewall exception](media/lab-7/add-firewall-exception.png)
 
 13. Your IP should appear in the list there, like this:  
-    ![](media/lab-7/5113c2cbbd9cc84050940bb96a6cf22b.png)
+
+    ![ip exceptions](media/lab-7/ip-exceptions.png)
 
 14. Click on Save button to save changes:  
-    ![](media/lab-7/b24db7ce8e2258926004be802f22445c.png)
+
+    ![firewall save](media/lab-7/firewall-save.png)
 
 15. Next, refresh your browser tab to make sure change has been reflected:  
-    ![A picture containing icon Description automatically
-    generated](media/lab-7/0b03afa87adff42ef03823fbb0f5479e.png)
+
+    ![browser refresh](media/lab-7/browser-refresh.png)
 
 16. Create a new blob container by going to **Storage Explorer** section and
     **right click** on **BLOB CONTAINERS**, then click on **Create blob
     container**.  
-    ![](media/lab-7/996efdfc06e7d560e0600084336fbce7.png)
+
+    ![create blob container](media/lab-7/create-blob-container.png)
 
 17. Give the container a name, and make sure the **Public access level** is set
     to **Blob (anonymous read access for blobs only)**, then click on **Create**
     button.  
-    ![](media/lab-7/53c8d78a42b77adc9a1993e9f4d50f85.png)
+
+    ![container name](media/lab-7/container-name.png)
 
 18. Create a text file (.txt) name it as you want and type any text in it. Try
     to make it unique so you can notice the content in later steps. For example:
 
-    ![Application Description automatically
-    generated](media/lab-7/0bdcdaa591d589512c3198b43d0d2c28.png)
+    ![create text file](media/lab-7/create-text-file.png)
 
 19. Upload the created text file (try.txt) to the blob container that you just
-    created.![](media/lab-7/0767f0177d40497520a56cb91a78ced1.png)
+    created.
+
+    ![upload file](media/lab-7/upload-file.png)
 
 20. Copy and store the URL of that text file blob as you will be using it in
     future steps. This how you do
-    it:![](media/lab-7/44a0a8db1471589f7ec9bbad92f73c8b.png)  
+    it:
+
+    ![copy url](media/lab-7/copy-url.png)
+  
     The URL will look like this:
     <https://avs44demo.blob.core.windows.net/mycontainer/try.txt>
 
 21. Let’s now remove the Firewall exception that you added earlier, as it is no
     longer needed. By going to **Networking** and **deleting** your IP address,
     then click on **Save** button to save
-    changes.![](media/lab-7/5eea9d7e2924d8ef2ff87734d0547d39.png)
+    changes.
+
+    ![remove ip exception](media/lab-7/remove-ip-exception.png)
 
 22. NOW, is testing time!
 
@@ -136,12 +147,12 @@ resolution.
 
        curl <https://avs44demo.blob.core.windows.net/mycontainer/try.txt>
 
-       ![](media/lab-7/37517acded4baacc37b7bd7da1cf81e6.png)
+       ![curl url](media/lab-7/curl-url.png)
 
     3. This is what you get when you try to access the URL from your
        workstation (or any device outside of your AVS Private Cloud scope)
 
-       ![](media/lab-7/bbb55c39fa7666df2d325e7be2921392.png)
+       ![curl-response](media/lab-7/curl-response.png)
 
 **As you just noticed, from a VM hosted on AVS you were able to retrieve a blob
 privately and securely from Azure Storage account without exposing the Storage

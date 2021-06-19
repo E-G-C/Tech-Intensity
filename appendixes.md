@@ -42,13 +42,13 @@ In the shell enter the command:
 az provider register -n Microsoft.AVS --subscription \<your subscription ID\>
 
 ![Graphical user interface, text Description automatically
-generated](media/cc132c21df464dea3ce057278765fd7c.tiff)
+generated](media/appendixes/cc132c21df464dea3ce057278765fd7c.tiff)
 
 In the Azure portal select **Create a new resource** and search for **Azure
 VMware Solution**, in the AVs window select **Create**.
 
 ![Graphical user interface, text, application, email Description automatically
-generated](media/dcd37da5bb0fe245b4b531bb55d6b362.tiff)
+generated](media/appendixes/dcd37da5bb0fe245b4b531bb55d6b362.tiff)
 
 In the Create a Private Cloud window fill in the needed parameters.
 
@@ -78,20 +78,20 @@ In the Create a Private Cloud window fill in the needed parameters.
   environment from any workloads running on that VNET.
 
 ![Graphical user interface, application Description automatically
-generated](media/8bd292b94b8cf7edcbf70c4b4eef3510.png)
+generated](media/appendixes/8bd292b94b8cf7edcbf70c4b4eef3510.png)
 
 For this Lab create a new VNET and make sure you create a **GatewaySubnet**
 subnet.
 
 ![Graphical user interface, application, table Description automatically
-generated](media/32a2a19ca9c62dc70e931d9620b15a96.tiff)
+generated](media/appendixes/32a2a19ca9c62dc70e931d9620b15a96.tiff)
 
 Finally go the **Review + create** screen, check that everything is validated
 and select **Create**. The operation will take at least two hours to complete.
 The status of the deployment can be monitored from Azure portal.
 
 ![Graphical user interface, application, Teams Description automatically
-generated](media/3037a1d27da934a008ae515b1e85852d.tiff)
+generated](media/appendixes/3037a1d27da934a008ae515b1e85852d.tiff)
 
 ## APPENDIX 2 – Configure AVS Networking from NSX-T Manager
 
@@ -116,20 +116,20 @@ Select **DHCP** for the **Server Type**, provide the server’s name and IP
 address, and then click **Save**.
 
 ![A screenshot of a computer Description automatically
-generated](media/c50047f06ea4b5d6b40a3d78891c5c11.png)
+generated](media/appendixes/c50047f06ea4b5d6b40a3d78891c5c11.png)
 
 Next in **Connectivity** select **Tier-1 Gateways**. Click on the vertical
 ellipsis and select **Edit**, a configuration screen will open. Click on the
 **No IP Allocation Set** link.
 
 ![Graphical user interface, application, website Description automatically
-generated](media/7881c51d8b606d5d0f1601a593588d7f.png)
+generated](media/appendixes/7881c51d8b606d5d0f1601a593588d7f.png)
 
 In the pop-up set the type to **DHCP Local Server** and select the DHCP server
 and click **Save**.
 
 ![Graphical user interface, application Description automatically
-generated](media/c1e3ebf014a7d12a5206de05f6c8f5c5.png)
+generated](media/appendixes/c1e3ebf014a7d12a5206de05f6c8f5c5.png)
 
 Click on **Save** again and on **CLOSE EDITING**.
 
@@ -141,14 +141,14 @@ Gateway as the **Connected Gateway** and leave the **Type** as **Flexible**.
 Select the **Transport Zone** of type **Overlay**.
 
 ![Graphical user interface, text, application, email Description automatically
-generated](media/4c21ebc7cff3990e3141edf2044cc8a2.png)
+generated](media/appendixes/4c21ebc7cff3990e3141edf2044cc8a2.png)
 
 Click on **Set Subnets**. Enter and IP address for the gateway, remember that
 the address needs to be on a non-overlapping RFC1918 address block. And enter an
 IP address DHCP range. Select **ADD** and then **Apply**.
 
 ![Graphical user interface, text, application, chat or text message Description
-automatically generated](media/3471c8b8ffd033bf0181ee4a498af478.png)
+automatically generated](media/appendixes/3471c8b8ffd033bf0181ee4a498af478.png)
 
 Finally click on **Save** and **No** to finish the creation of the segment.
 
@@ -165,7 +165,7 @@ Lab.
    From the **Hosts & Clusters** screen right click in **Cluster-1** and select
    **Deploy OVF Template**. ![Graphical user interface, text, application
    Description automatically
-   generated](media/826d2493a8b8a9fe4af32ecee4c4b826.png)
+   generated](media/appendixes/826d2493a8b8a9fe4af32ecee4c4b826.png)
 
 2. In the pop-up screen make sure to select URL and enter the following address
    and click **Next**. The link is:
@@ -174,8 +174,7 @@ Lab.
    
    Accept the certificate, enter a name for the virtual machine and select a
    location. For the location leave the Virtual Datacenter.  
-   ![Graphical user interface, text, application, email Description
-   automatically generated](media/c4d29e2d060cf2d754e6aee927fb1269.png)
+   ![](media/appendixes/c4d29e2d060cf2d754e6aee927fb1269.png)
 
 ## APPENDIX 4 – Configure DNS Forwarding through Conditional Forwarders
 
@@ -185,7 +184,7 @@ forwarding all DNS traffic to Azure DNS virtual server.
 
 1. Right click on **Conditional Forwarders** and click on **New Conditional
    Forwarder…**. ![Graphical user interface, text, application Description
-   automatically generated](media/5faa9c7e632faca2219f05d44dfa2dca.png)
+   automatically generated](media/appendixes/5faa9c7e632faca2219f05d44dfa2dca.png)
 
 2. In the **DNS Domain**, get the value from this article [Azure Private
    Endpoint DNS configuration \| Microsoft
@@ -196,14 +195,12 @@ forwarding all DNS traffic to Azure DNS virtual server.
    **blob.core.windows.net**. Under **IP address of the master servers,** you
    need put the IP of Azure DNS virtual server **168.63.129.16**. Click OK to
    create the Conditional Forwarder for Storage Blob service in this example.
-   ![Graphical user interface, text, application, email Description
-   automatically generated](media/5215febe92fb25b6c0655b280234e1f4.png)
+   ![](media/appendixes/5215febe92fb25b6c0655b280234e1f4.png)
 
 3. And that’s what you’ll get. Remember that you’ll need to do this for each
    service you are integrating with Azure Private Endpoint and creating an
    Azure Private DNS Zone for.
-   ![Graphical user interface, text, application Description automatically
-   generated](media/063a72551ad2914547c07ef8e9977fff.png)
+   ![](media/appendixes/063a72551ad2914547c07ef8e9977fff.png)
 
 ## Next Steps
 
