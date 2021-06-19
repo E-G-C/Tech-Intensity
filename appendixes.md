@@ -42,13 +42,13 @@ In the shell enter the command:
 az provider register -n Microsoft.AVS --subscription \<your subscription ID\>
 
 ![Graphical user interface, text Description automatically
-generated](media/appendixes/cc132c21df464dea3ce057278765fd7c.tiff)
+generated](media/appendixes/cc132c21df464dea3ce057278765fd7c.png)
 
 In the Azure portal select **Create a new resource** and search for **Azure
 VMware Solution**, in the AVs window select **Create**.
 
 ![Graphical user interface, text, application, email Description automatically
-generated](media/appendixes/dcd37da5bb0fe245b4b531bb55d6b362.tiff)
+generated](media/appendixes/dcd37da5bb0fe245b4b531bb55d6b362.png)
 
 In the Create a Private Cloud window fill in the needed parameters.
 
@@ -84,14 +84,14 @@ For this Lab create a new VNET and make sure you create a **GatewaySubnet**
 subnet.
 
 ![Graphical user interface, application, table Description automatically
-generated](media/appendixes/32a2a19ca9c62dc70e931d9620b15a96.tiff)
+generated](media/appendixes/32a2a19ca9c62dc70e931d9620b15a96.png)
 
 Finally go the **Review + create** screen, check that everything is validated
 and select **Create**. The operation will take at least two hours to complete.
 The status of the deployment can be monitored from Azure portal.
 
 ![Graphical user interface, application, Teams Description automatically
-generated](media/appendixes/3037a1d27da934a008ae515b1e85852d.tiff)
+generated](media/appendixes/3037a1d27da934a008ae515b1e85852d.png)
 
 ## APPENDIX 2 – Configure AVS Networking from NSX-T Manager
 
@@ -171,7 +171,7 @@ Lab.
    and click **Next**. The link is:
    <https://packages.vmware.com/photon/4.0/GA/ova/photon-hw13-uefi-4.0-1526e30ba0.ova>
    (223 MB).
-   
+
    Accept the certificate, enter a name for the virtual machine and select a
    location. For the location leave the Virtual Datacenter.  
    ![](media/appendixes/c4d29e2d060cf2d754e6aee927fb1269.png)
