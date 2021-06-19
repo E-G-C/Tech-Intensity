@@ -60,8 +60,7 @@ Now you will create an Azure Bastion host. Go back then to the home screen of
 the Azure portal select **Create a new resource**, search for **Bastion,** and
 click on **Create**.
 
-![Graphical user interface, application Description automatically
-generated](media/lab-2/create-bastion.png)
+![TODO:](media/lab-2/create-bastion.png)
 
 After filling out all the required parameters go to **Review + create** and
 launch the deployment.
