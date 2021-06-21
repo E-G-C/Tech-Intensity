@@ -17,7 +17,7 @@ You will be downloading, deploying, and configuring VMware HCX on-premises,
 including all its components (Interconnect, Network Extension, and WAN
 Optimization). Then we will connect our on-premises environment via site pairing
 and stretch our Apps network to the Azure VMware Solution Private Cloud for
-ero-downtime migration.
+zero-downtime migration.
 
 ## Lab Modules
 

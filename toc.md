@@ -64,6 +64,7 @@
 - [Scale a cluster](lab-11.md#scale-a-cluster)
 
 [LAB12B – Configure HCX (HoL)](lab-12.md)
+
 [LAB13B – Configure Alerts and Notifications](lab-13.md)
 
 - [Supported metrics and activities](lab-13.md#supported-metrics-and-activities)
