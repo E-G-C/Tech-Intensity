@@ -25,7 +25,7 @@
 
 [LAB1 – Azure VMware Solution Deployment](lab-1.md)
 
-[LAB2 – Configure Private Cloud access    7](lab-2.md)
+[LAB2 – Configure Private Cloud access](lab-2.md)
 
 - [Jumpbox deployment](lab-2.md#jumpbox-deployment)
 
@@ -46,7 +46,7 @@
 
 [LAB4 – Enable Internet Access to Azure VMware Solution](lab-4.md)
 
-[LAB5 – Create content libraries    26](lab-5.md)
+[LAB5 – Create content libraries](lab-5.md)
 
 [LAB6 – Deploy a virtual machine on Azure VMware Solution](lab-6.md)
 
