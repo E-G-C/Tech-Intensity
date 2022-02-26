@@ -101,6 +101,6 @@ Firewall Policy.**
 
 ## Next Steps
 
-[Back to Table of Content](toc.md#table-of-contents)
+[Back to Table of Content](index.md#table-of-contents)
 
 [Lab 10](lab-10.md)

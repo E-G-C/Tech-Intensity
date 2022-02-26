@@ -126,6 +126,6 @@ These are the detailed instructions of what you’ve seen in the section before
 
 ## Next Steps
 
-[Back to Table of Content](toc.md#table-of-contents)
+[Back to Table of Content](index.md#table-of-contents)
 
 [Lab 3](lab-3.md)

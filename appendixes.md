@@ -198,4 +198,4 @@ forwarding all DNS traffic to Azure DNS virtual server.
 
 ## Next Steps
 
-[Back to Table of Content](toc.md#table-of-contents)
+[Back to Table of Content](index.md#table-of-contents)

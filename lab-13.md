@@ -164,6 +164,6 @@ The following metrics are visible through Azure Monitor Metrics.
 
 ## Next Steps
 
-[Back to Table of Content](toc.md#table-of-contents)
+[Back to Table of Content](index.md#table-of-contents)
 
 [Lab 14](lab-14.md)

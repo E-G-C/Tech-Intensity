@@ -167,6 +167,6 @@ Private Endpoint).**
 
 ## Next Steps
 
-[Back to Table of Content](toc.md#table-of-contents)
+[Back to Table of Content](index.md#table-of-contents)
 
 [Lab 8](lab-8.md)

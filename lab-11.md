@@ -32,6 +32,6 @@ but that’s outside of the scope of this lab.
 
 ## Next Steps
 
-[Back to Table of Content](toc.md#table-of-contents)
+[Back to Table of Content](index.md#table-of-contents)
 
 [Lab 12](lab-12.md)

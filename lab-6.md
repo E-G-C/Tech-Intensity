@@ -173,6 +173,6 @@ to the Internet in two different ways, as you’ll notice.
 
 ## Next Steps
 
-[Back to Table of Content](toc.md#table-of-contents)
+[Back to Table of Content](index.md#table-of-contents)
 
 [Lab 7](lab-7.md)

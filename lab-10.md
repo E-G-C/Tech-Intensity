@@ -122,6 +122,6 @@ Private Cloud in the Backend Pool of Application Gateway:
 
 ## Next Steps
 
-[Back to Table of Content](toc.md#table-of-contents)
+[Back to Table of Content](index.md#table-of-contents)
 
 [Lab 11](lab-11.md)

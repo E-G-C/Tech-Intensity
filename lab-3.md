@@ -197,6 +197,6 @@ resources through Azure Private DNS Zones. For more details, check this out:
 
 ## Next Steps
 
-[Back to Table of Content](toc.md#table-of-contents)
+[Back to Table of Content](index.md#table-of-contents)
 
 [Lab 4](lab-4.md)

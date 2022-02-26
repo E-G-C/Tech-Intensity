@@ -51,6 +51,6 @@ configuring inbound Internet traffic to VMs hosted at AVS Private Cloud.
 
 ## Next Steps
 
-[Back to Table of Content](toc.md#table-of-contents)
+[Back to Table of Content](index.md#table-of-contents)
 
 [Lab 9](lab-9.md)

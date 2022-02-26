@@ -60,6 +60,6 @@ vSAN storage and a remote one using Azure Blob Storage.
 
 ## Next Steps
 
-[Back to Table of Content](toc.md#table-of-contents)
+[Back to Table of Content](index.md#table-of-contents)
 
 [Lab 6](lab-6.md)

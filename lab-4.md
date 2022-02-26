@@ -42,6 +42,6 @@ running on AVS Private Cloud.**
 
 ## Next Steps
 
-[Back to Table of Content](toc.md#table-of-contents)
+[Back to Table of Content](index.md#table-of-contents)
 
 [Lab 5](lab-5.md)
